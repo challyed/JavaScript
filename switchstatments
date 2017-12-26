@@ -1,0 +1,16 @@
+var sign = prompt("What is your chinese zodiac sign?");
+alert("The Chinese Zodiac");
+switch(sign){
+  case "Monkey":
+    alert("you are second");
+    break;
+  case "Rat":
+    alert("You tricked the cat");
+    break;
+  case "Bull":
+    alert("you break things");
+    break;
+  default:
+    alert("This is a default statment");
+    break; 
+}
